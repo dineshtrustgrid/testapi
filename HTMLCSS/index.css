@@ -1,0 +1,103 @@
+*{
+margin: 0;
+/* background-color: white; */
+box-sizing: border-box;
+}
+.box1{
+    background-color: blue;
+    color: white;
+    border: 5px solid red;
+    padding: 40px;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+}
+
+.box2{
+    background-color: brown;
+    color:white;
+}
+
+a{
+    font-size: 24px;
+    background-color: rgb(247,106,106);
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: white;
+
+    
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited{
+    color:g rey
+}
+table,th,td{
+    border: 1px solid black;
+   
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    height: 40px;
+
+    vertical-align: middle;
+}
+th{
+    height: 40px;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+/* tr:hover{
+    background-color: darkblue;
+    color: white;
+    
+} */
+
+tr:nth-child(odd):hover{
+    background-color: blueviolet;
+}
+tr:nth-child(even):hover{
+    background-color: lightblue;
+}
+
+/* Flex box */
+.container{
+    width: 100%;
+    display: flex;
+    background-color: dodgerblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    
+    
+}
+.container >.flex-row{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    text-align: center;
+    
+    
+}
